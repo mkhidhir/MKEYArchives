@@ -1,0 +1,107 @@
+-- Step 1: Build Hapag Lloyd Fleet from the Hapag Lloyd vessel page
+WITH VesselListHL AS (
+    SELECT
+        IMO,
+        SHIPNAME,
+        LAT,
+        LON,
+        DESTINATION,
+        TIMESTAMP,
+        AVG_SPEED,
+        COURSE,
+        CURRENT_PORT,
+        DISTANCE_TO_GO,
+        DISTANCE_TRAVELLED,
+        DRAUGHT,
+        DWT,
+        HEADING,
+        LAST_PORT,
+        MARKET,
+        MAIN_MARKET,
+        MAX_SPEED,
+        NEXT_PORT_NAME,
+        SPEED,
+        STATUS
+    FROM
+        COMMODITIES.CUSTOMERS.LAST_POSITIONS
+    WHERE
+        SHIPNAME IN (
+            'BERLIN EXPRESS', 'MANILA EXPRESS', 'HANOI EXPRESS', 'BUSAN EXPRESS', 
+            'SINGAPORE EXPRESS', 'DAMIETTA EXPRESS', 'HAMBURG EXPRESS', 
+            'AL DAHNA', 'AL MURAYKH', 'AL NEFUD', 'AL ZUBARA', 
+            'BARZAN', 'TIHAMA', 'AFIF', 'AL DHAIL', 'AL JASRAH', 
+            'AL JMELIYAH', 'AL MASHRAB', 'AL MURABBA', 'AL NASRIYAH', 
+            'LINAH', 'BRUSSELS EXPRESS', 'SALAHUDDIN', 'UMM QARN', 
+            'AIN SNAN EXPRESS', 'ALULA', 'AL QIBLA', 'AL RIFFA', 
+            'JEBEL ALI', 'TAYMA', 'TANGIER EXPRESS', 'UMM SALAL', 
+            'UNAYZAH', 'ANTWERPEN EXPRESS', 'BASLE EXPRESS', 'ESSEN EXPRESS', 
+            'DORTMUND EXPRESS', 'HONG KONG EXPRESS', 'LEVERKUSEN EXPRESS', 
+            'LUDWIGSHAFEN EXPRESS', 'NEW YORK EXPRESS', 'SHANGHAI EXPRESS', 
+            'ULSAN EXPRESS', 'RIO DE JANEIRO EXPRESS', 'MONTEVIDEO EXPRESS', 
+            'BUENOS AIRES EXPRESS', 'VALPARAISO EXPRESS', 'CALLAO EXPRESS', 
+            'CARTAGENA EXPRESS', 'GUAYAQUIL EXPRESS', 'SANTOS EXPRESS', 
+            'HUMBOLDT EXPRESS', 'IQUIQUE EXPRESS', 'BREMEN EXPRESS', 
+            'CHICAGO EXPRESS', 'COLOMBO EXPRESS', 'HANOVER EXPRESS', 
+            'KUALA LUMPUR EXPRESS', 'KYOTO EXPRESS', 'OSAKA EXPRESS', 
+            'TSINGTAO EXPRESS', 'FRANKFURT EXPRESS', 'PRAGUE EXPRESS', 
+            'SOFIA EXPRESS', 'NAGOYA EXPRESS', 'BUDAPEST EXPRESS', 
+            'VIENNA EXPRESS', 'CAUQUENES', 'CAUTIN', 'CISNES', 
+            'COCHRANE', 'COPIAPO', 'CORCOVADO', 'COYHAIQUE', 'TEMPANOS', 
+            'TENO', 'TIRUA', 'TOLTEN', 'TORRENTE', 'TUBUL', 'TUCAPEL', 
+            'KIEL EXPRESS', 'DALIAN EXPRESS', 'NINGBO EXPRESS', 'YANTIAN EXPRESS', 
+            'MAIPO', 'MEHUIN', 'KALAHARI EXPRESS', 'AL MANAMAH', 'AL SAFAT', 
+            'JAZAN', 'MISSOURI EXPRESS', 'POTOMAC EXPRESS', 'DELAWARE EXPRESS', 
+            'COLORADO EXPRESS', 'HUDSON EXPRESS', 'PALENA', 'SUAPE EXPRESS', 
+            'LE HAVRE EXPRESS', 'DALLAS EXPRESS', 'AMSTERDAM EXPRESS', 
+            'SEOUL EXPRESS', 'TOKYO EXPRESS', 'DUBLIN EXPRESS', 'GLASGOW EXPRESS', 
+            'LIVERPOOL EXPRESS', 'DÜSSELDORF EXPRESS', 'KOBE EXPRESS', 
+            'LONDON EXPRESS', 'MONTREAL EXPRESS', 'TORONTO EXPRESS', 
+            'QUEBEC EXPRESS', 'ONTARIO EXPRESS', 'JAKARTA EXPRESS', 
+            'ARICA EXPRESS', 'DACHAN BAY EXPRESS', 'MOMBASA EXPRESS', 
+            'CHACABUCO', 'DUBAI EXPRESS', 'TEMA EXPRESS', 'LISBON EXPRESS', 
+            'VALENCIA EXPRESS', 'SAN VICENTE EXPRESS', 'CABINDA EXPRESS', 
+            'MATADI EXPRESS', 'DOUALA EXPRESS'        
+        )
+),
+
+-- Step 2: Filter Ownership Info to get only the latest data for each vessel
+LatestVesselOwnership AS (
+    SELECT 
+        IMO,
+        COMPANY_TYPE,
+        NAME AS COMPANY_NAME,
+        COALESCE(UPDATED_DATE, CREATED_DATE) AS LATEST_DATE,
+        ROW_NUMBER() OVER (PARTITION BY IMO ORDER BY COALESCE(UPDATED_DATE, CREATED_DATE) DESC) AS rn
+    FROM 
+        COMMODITIES.CUSTOMERS.VESSEL_OWNERSHIP
+)
+
+-- Step 3: Join all tables together
+SELECT 
+    vhl.IMO,
+    vhl.SHIPNAME,
+    lvo.COMPANY_TYPE,
+    lvo.COMPANY_NAME,
+    vhl.LAT,
+    vhl.LON,
+    vhl.AVG_SPEED,
+    vhl.COURSE,
+    vhl.CURRENT_PORT,
+    vhl.DISTANCE_TO_GO,
+    vhl.DISTANCE_TRAVELLED,
+    vhl.DRAUGHT,
+    vhl.DWT,
+    vhl.HEADING,
+    vhl.LAST_PORT,
+    vhl.MARKET,
+    vhl.MAIN_MARKET,
+    vhl.MAX_SPEED,
+    vhl.NEXT_PORT_NAME,
+    vhl.SPEED,
+    vhl.STATUS
+FROM 
+    VesselListHL vhl
+LEFT JOIN 
+    LatestVesselOwnership lvo ON vhl.IMO = lvo.IMO AND lvo.rn = 1  -- Get latest ownership
+WHERE 
+    lvo.rn = 1;  -- Filter to get only the latest record per vessel

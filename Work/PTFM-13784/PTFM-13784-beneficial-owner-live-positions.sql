@@ -1,0 +1,46 @@
+SELECT 
+    lp.IMO,
+    lp.MMSI,
+    lp.SHIPNAME,
+    lp.TYPE_NAME,
+    lp.market,
+    lp.LAT,
+    lp.LON,
+    lp.TIMESTAMP,
+    lp.COURSE,
+    lp.HEADING,
+    lp.SPEED,
+    lp.STATUS,
+    'LIVE' AS POSITION_TYPE
+FROM LAST_POSITIONS lp
+JOIN VESSEL_OWNERSHIP vo
+    ON lp.IMO = vo.IMO
+WHERE 
+    vo.NAME = 'CMA CGM GROUP'
+    AND vo.COMPANY_TYPE = 'BENEFICIAL_OWNER'
+
+UNION ALL
+
+SELECT
+    lp.IMO,
+    lp.MMSI,
+    lp.SHIPNAME,
+    lp.TYPE_NAME,
+    lp.market,
+    lp.LAT,
+    lp.LON,
+    lp.TIMESTAMP,
+    lp.COURSE,
+    lp.HEADING,
+    lp.SPEED,
+    lp.STATUS,
+    'HISTORICAL' AS POSITION_TYPE
+FROM LAST_POSITIONS_PIT lp
+JOIN VESSEL_OWNERSHIP vo
+    ON lp.IMO = vo.IMO
+WHERE
+    vo.NAME LIKE '%CMA%'
+    AND vo.COMPANY_TYPE = 'BENEFICIAL_OWNER'
+    AND lp.SNAPSHOT_DATE >= DATEADD(MONTH, -6, CURRENT_DATE)  -- Filter last 6 months
+
+ORDER BY TIMESTAMP DESC;
