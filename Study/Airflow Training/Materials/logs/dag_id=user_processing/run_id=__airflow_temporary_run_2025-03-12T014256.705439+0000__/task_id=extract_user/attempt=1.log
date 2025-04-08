@@ -1,0 +1,13 @@
+[2025-03-12T01:42:57.623+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user __airflow_temporary_run_2025-03-12T01:42:56.705439+00:00__ [queued]>
+[2025-03-12T01:42:57.630+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user __airflow_temporary_run_2025-03-12T01:42:56.705439+00:00__ [queued]>
+[2025-03-12T01:42:57.630+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2025-03-12T01:42:57.631+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2025-03-12T01:42:57.631+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2025-03-12T01:42:57.641+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2022-01-01 00:00:00+00:00
+[2025-03-12T01:42:57.646+0000] {standard_task_runner.py:55} INFO - Started process 2448 to run task
+[2025-03-12T01:42:57.648+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', '__***_temporary_run_2025-03-12T01:42:56.705439+00:00__', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpy2vr_8l2']
+[2025-03-12T01:42:57.649+0000] {standard_task_runner.py:83} INFO - Job 12: Subtask extract_user
+[2025-03-12T01:42:57.671+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 12 for task extract_user (DagRun for user_processing with run_id or execution_date of '__airflow_temporary_run_2025-03-12T01:42:56.705439+00:00__' not found; 2448)
+[2025-03-12T01:42:57.699+0000] {local_task_job.py:164} INFO - Task exited with return code 1
