@@ -1,0 +1,41 @@
+import snowflake.connector
+
+# Define session parameters
+session_params = {
+    "account": "KPLER-MK76983", # Your Snowflake account identifier (usually in the format 'your_account.region')
+    "user": "mkhidhir@kpler.com", # Your Snowflake username
+    "password": "Khidzsuper69!@", # Your Snowflake password
+    "role": "CUSTOMERS_FLOWS_FREIGHT_INVENTORIES_DRONE_MT", # Your Snowflake role (e.g., SYSADMIN, PUBLIC, etc.)
+    "warehouse": "CUSTOMERS", # The virtual warehouse you're using
+    "database": "COMMODITIES", # The database you are working with
+    "schema": "CUSTOMERS", # The schema within the database
+    "server": "KPLER-MK76983.snowflakecomputing.com" # Your Snowflake server name (e.g., 'xy12345.snowflakecomputing.com')
+}
+
+# Try connecting to Snowflake
+try:
+    # Establish connection
+    conn = snowflake.connector.connect(
+        user=session_params["user"],
+        password=session_params["password"],
+        account=session_params["account"],
+        role=session_params["role"],
+        warehouse=session_params["warehouse"],
+        database=session_params["database"],
+        schema=session_params["schema"]
+    )
+
+    # Create a cursor object and execute a simple query
+    cursor = conn.cursor()
+    cursor.execute("SELECT CURRENT_VERSION()")  # Example query to check connection
+
+    # Fetch and print the result
+    result = cursor.fetchone()
+    print(f"Connection successful! Snowflake version: {result[0]}")
+
+    # Close cursor and connection
+    cursor.close()
+    conn.close()
+
+except Exception as e:
+    print(f"Connection failed: {e}")

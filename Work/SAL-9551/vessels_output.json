@@ -1,0 +1,2382 @@
+[
+  {
+    "identifier": {
+      "imo": 9256614,
+      "mmsi": 538003487,
+      "callSign": "V7RE2",
+      "eni": null,
+      "shipId": 712757
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": "ENERGOS",
+          "country": "NORWAY",
+          "address": null,
+          "website": null,
+          "startDate": "2023-05-19"
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "ENERGOS WINTER CORP",
+          "country": "MARSHALL ISLANDS",
+          "address": "Ajeltake, Majuro Atoll, RMI",
+          "website": null,
+          "startDate": "2022-07-14"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "WILHELMSEN SHIP MGMT LTDUSA",
+          "country": "UNITED STATES",
+          "address": "9400 New Century Dr, Pasadena, TX 77507, USA",
+          "website": null,
+          "startDate": "2024-04-25"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": "NEW FORTRESS ENERGY INC",
+          "country": "UNITED STATES OF AMERICA",
+          "address": "111 W 19th St, New York, NY 10011, USA",
+          "website": "https://www.newfortressenergy.com/",
+          "startDate": "2022-07-14"
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": "WILHELMSEN SHIP MGMT LTDUSA",
+          "country": "UNITED STATES",
+          "address": "9400 New Century Dr, Pasadena, TX 77507, USA",
+          "website": null,
+          "startDate": "2024-04-25"
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": "WILHELMSEN SHIP MGMT LTDUSA",
+          "country": "UNITED STATES",
+          "address": "9400 New Century Dr, Pasadena, TX 77507, USA",
+          "website": null,
+          "startDate": "2024-04-25"
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "DAEWOO SHIPBUILDING MARINE ENGINEERING",
+          "country": "SOUTH KOREA",
+          "address": "Geoje-si, Gyeongsangnam-do, South Korea",
+          "website": "http://www.dsme.co.kr/epub/main/index.do",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": "MITSUBISHI HEAVY INDUSTRIES",
+          "country": "JAPAN",
+          "address": "Nagasaki, Japan",
+          "website": "https://www.mhi.com/group/mhimsb/",
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "DNV GROUP",
+          "country": "NORWAY",
+          "address": "Veritasveien 1, 1363 Hovik, Norway",
+          "website": "https://www.dnv.com/",
+          "startDate": "2023-10-04"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "GARD P&I",
+          "country": "NORWAY",
+          "address": "Kittelsbuktveien 31, 4836 Arendal, Norway",
+          "website": "http://www.gard.no/",
+          "startDate": "2024-06-20"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "ENERGOS WINTER",
+        "commercialFleet": "LNG CARRIERS",
+        "generalVesselType": "LNG TANKER",
+        "detailedVesselType": "LNG TANKER",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Marshall Is",
+        "portOfRegistry": "DELAP-ULIGA-DJARRIT",
+        "keelLaidDate": "2003-01-13"
+      },
+      "hull": {
+        "yearOfBuild": 2004,
+        "yardNumber": null,
+        "hullMaterial": "Steel",
+        "hullType": "SINGLE HULL",
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 217,
+        "lengthAft": 60,
+        "widthLeft": 30,
+        "widthRight": 13.3,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 277,
+        "lengthBetweenPerpendiculars": 266,
+        "breadthExtreme": 43.3,
+        "breadthMoulded": 43.3,
+        "draught": 11.4,
+        "depth": 21.26,
+        "freeboard": 21273
+      },
+      "tonnage": {
+        "grossTonnage": 95970,
+        "deadweightTonnage": 80810,
+        "netTonnage": 28792,
+        "loadedDisplacementTonnage": null,
+        "lightDisplacementTonnage": null
+      },
+      "capacity": {
+        "liquidCapacity": null,
+        "gasCapacity": 138000,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": 52355
+      },
+      "engine": {
+        "enginePower": 27066,
+        "engineUnits": 1,
+        "engineCylinderUnits": null,
+        "engineBore": null,
+        "engineStroke": null,
+        "engineRpm": 88,
+        "engineType": null,
+        "speedService": 19.75,
+        "propeller": "1 FIXED PITCH"
+      },
+      "fuel": {
+        "mainEngineFuelType": null,
+        "fuelCapacity": null
+      }
+    }
+  },
+  {
+    "identifier": {
+      "imo": 9271248,
+      "mmsi": 257739000,
+      "callSign": "LAGE6",
+      "eni": null,
+      "shipId": 308459
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": "ROYAL BANK LEASING LTD",
+          "country": "UNITED KINGDOM",
+          "address": "42, St Andrew Square, EH2 2AD, Edinburgh",
+          "website": "https://royal-leasing.org/",
+          "startDate": "2006-01-13"
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "RBQUADRANGLE LEASING LTD",
+          "country": "UNITED KINGDOM",
+          "address": "5 Young St, London W8 5EH, UK",
+          "website": null,
+          "startDate": "2006-01-13"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "HOEGH UK",
+          "country": "U.K.",
+          "address": "5, Young Street London, W8 5EH, United Kingdom.",
+          "website": null,
+          "startDate": "2006-01-13"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": "HOEGH UK",
+          "country": "U.K.",
+          "address": "5, Young Street London, W8 5EH, United Kingdom.",
+          "website": null,
+          "startDate": "2006-01-13"
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": "HOEGH LNG FLEET MANAGEMENT AS",
+          "country": "NORWAY",
+          "address": "Drammensveien 134, 0277 Oslo, Norway.",
+          "website": "http://www.hoegh.com/",
+          "startDate": "2009-10-01"
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": "HOEGH LNG FLEET MANAGEMENT AS",
+          "country": "NORWAY",
+          "address": "Drammensveien 134, 0277 Oslo, Norway.",
+          "website": "http://www.hoegh.com/",
+          "startDate": "2009-10-01"
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "MHI NAGASAKI SHIPYARD & ENGINE WORKS",
+          "country": "JAPAN",
+          "address": "Nagasaki, Japan",
+          "website": "http://www.mhi.co.jp",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": "KAWASAKI",
+          "country": "JAPAN",
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "DNV GROUP",
+          "country": "NORWAY",
+          "address": "Veritasveien 1, 1363 Hovik, Norway",
+          "website": "https://www.dnv.com/",
+          "startDate": "2006-01-13"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "GARD P&I",
+          "country": "NORWAY",
+          "address": "Kittelsbuktveien 31, 4836 Arendal, Norway",
+          "website": "http://www.gard.no/",
+          "startDate": "2024-04-19"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "ARCTIC PRINCESS",
+        "commercialFleet": "LNG CARRIERS",
+        "generalVesselType": "LNG TANKER",
+        "detailedVesselType": "LNG TANKER",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Norway",
+        "portOfRegistry": "HAMMERFEST",
+        "keelLaidDate": "2004-08-17"
+      },
+      "hull": {
+        "yearOfBuild": 2006,
+        "yardNumber": null,
+        "hullMaterial": "Steel",
+        "hullType": "SINGLE HULL",
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 223,
+        "lengthAft": 65,
+        "widthLeft": 25,
+        "widthRight": 24.04,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 288,
+        "lengthBetweenPerpendiculars": 274,
+        "breadthExtreme": 49.04,
+        "breadthMoulded": 49,
+        "draught": 12.32,
+        "depth": 26.8,
+        "freeboard": 15100
+      },
+      "tonnage": {
+        "grossTonnage": 121597,
+        "deadweightTonnage": 84878,
+        "netTonnage": 36480,
+        "loadedDisplacementTonnage": 118898,
+        "lightDisplacementTonnage": 34020
+      },
+      "capacity": {
+        "liquidCapacity": null,
+        "gasCapacity": 147835,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": 57562
+      },
+      "engine": {
+        "enginePower": 27600,
+        "engineUnits": 1,
+        "engineCylinderUnits": null,
+        "engineBore": null,
+        "engineStroke": null,
+        "engineRpm": 81,
+        "engineType": null,
+        "speedService": 19.5,
+        "propeller": "1 FIXED PITCH"
+      },
+      "fuel": {
+        "mainEngineFuelType": null,
+        "fuelCapacity": null
+      }
+    }
+  },
+  {
+    "identifier": {
+      "imo": 9431214,
+      "mmsi": 538003346,
+      "callSign": "V7QF2",
+      "eni": null,
+      "shipId": 712639
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": "QATAR GAS TRANSPORT CO QPSC",
+          "country": "QATAR",
+          "address": "C Ring Rd, Doha, Qatar",
+          "website": "https://nakilat.com/",
+          "startDate": "2010-05-03"
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "NAKILAT S.H.I. 1752 LLC",
+          "country": "QATAR",
+          "address": "Floor No 6, Al Shoumoukh Tower - B - No. 58",
+          "website": "https://www.nakilat.com/",
+          "startDate": "2024-12-28"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "QATAR LIQUIDFIED GAS CO LTD QATARGAS",
+          "country": "QATAR",
+          "address": null,
+          "website": "http://www.qatargas.com",
+          "startDate": "2024-03-12"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": "QATAR ENERGY",
+          "country": "QATAR",
+          "address": "Doha, Qatar",
+          "website": "https://www.qatarenergy.qa",
+          "startDate": "2010-01-01"
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": "SHELL INTERNATIONAL TRADING & SHIPPING CO",
+          "country": "U.K.",
+          "address": "Shell Centre, Belvedere Road, London, SE1 7NA",
+          "website": "http://www.shell.com/",
+          "startDate": "2010-03-05"
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": "SHELL INTERNATIONAL TRADING & SHIPPING CO",
+          "country": "U.K.",
+          "address": "Shell Centre, Belvedere Road, London, SE1 7NA",
+          "website": "http://www.shell.com/",
+          "startDate": "2010-03-05"
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "SAMSUNG HEAVY INDUSTRIES CO LTD",
+          "country": "SOUTH KOREA",
+          "address": "530, Jangpyeong-dong, Geoje, Gyeongsangnam-do, 656-710",
+          "website": "https://www.samsungshi.com/eng/default.aspx",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": "HD HYUNDAI INFRACORE",
+          "country": "SOUTH KOREA",
+          "address": "489 Injung-ro, Dong-gu, Incheon, South Korea",
+          "website": "https://www.hd-hyundaiengine.com/en",
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "AMERICAN BUREAU OF SHIPPING",
+          "country": "U.S.A.",
+          "address": "1701 City Plaza Drive Spring, TX 77389, U.S.A",
+          "website": "https://ww2.eagle.org/en.html",
+          "startDate": "2010-12-16"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "THE BRITANNIA STEAM SHIP INSURANCE ASSOCIATION",
+          "country": "U.K.",
+          "address": "Regis House 45, King William Street, London EC4R 9AN, UK",
+          "website": "https://britanniapandi.com/",
+          "startDate": "2022-05-10"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "ZARGA",
+        "commercialFleet": "LNG CARRIERS",
+        "generalVesselType": "LNG TANKER",
+        "detailedVesselType": "LNG TANKER",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Marshall Is",
+        "portOfRegistry": "DELAP-ULIGA-DJARRIT",
+        "keelLaidDate": null
+      },
+      "hull": {
+        "yearOfBuild": 2010,
+        "yardNumber": null,
+        "hullMaterial": "HIGH STRENGTH STEEL - ABS - GRADE FH36",
+        "hullType": "SINGLE HULL",
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 345,
+        "lengthAft": null,
+        "widthLeft": null,
+        "widthRight": null,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 345,
+        "lengthBetweenPerpendiculars": 332,
+        "breadthExtreme": 53.83,
+        "breadthMoulded": 53.8,
+        "draught": 12.2,
+        "depth": 27,
+        "freeboard": 15000
+      },
+      "tonnage": {
+        "grossTonnage": 163922,
+        "deadweightTonnage": 130211,
+        "netTonnage": 51596,
+        "loadedDisplacementTonnage": 178219,
+        "lightDisplacementTonnage": 48008
+      },
+      "capacity": {
+        "liquidCapacity": null,
+        "gasCapacity": 261104,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": 88672
+      },
+      "engine": {
+        "enginePower": 18940,
+        "engineUnits": 2,
+        "engineCylinderUnits": 7,
+        "engineBore": 700,
+        "engineStroke": 2800,
+        "engineRpm": 91,
+        "engineType": null,
+        "speedService": 19.5,
+        "propeller": "2 FIXED PITCH"
+      },
+      "fuel": {
+        "mainEngineFuelType": "MARINE DIESEL",
+        "fuelCapacity": 9283
+      }
+    }
+  },
+  {
+    "identifier": {
+      "imo": 9443401,
+      "mmsi": 538003354,
+      "callSign": "V7QG2",
+      "eni": null,
+      "shipId": 712647
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": "QATAR GAS TRANSPORT CO QPSC",
+          "country": "QATAR",
+          "address": "C Ring Rd, Doha, Qatar",
+          "website": "https://nakilat.com/",
+          "startDate": "2010-05-28"
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "NAKILAT S.H.I. 1753 LLC",
+          "country": "QATAR",
+          "address": "Floor No 6, Al Shoumoukh Tower - B - No. 58",
+          "website": "https://www.nakilat.com/",
+          "startDate": "2024-12-28"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "SHELL INTERNATIONAL TRADING & SHIPPING CO",
+          "country": "U.K.",
+          "address": "Shell Centre, Belvedere Road, London, SE1 7NA",
+          "website": "http://www.shell.com/",
+          "startDate": "2010-05-28"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": "QATAR ENERGY",
+          "country": "QATAR",
+          "address": "Doha, Qatar",
+          "website": "https://www.qatarenergy.qa",
+          "startDate": "2010-01-01"
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": "SHELL INTERNATIONAL TRADING & SHIPPING CO",
+          "country": "U.K.",
+          "address": "Shell Centre, Belvedere Road, London, SE1 7NA",
+          "website": "http://www.shell.com/",
+          "startDate": "2010-05-31"
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": "SHELL INTERNATIONAL TRADING & SHIPPING CO",
+          "country": "U.K.",
+          "address": "Shell Centre, Belvedere Road, London, SE1 7NA",
+          "website": "http://www.shell.com/",
+          "startDate": "2010-05-31"
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "SAMSUNG HEAVY INDUSTRIES CO LTD",
+          "country": "SOUTH KOREA",
+          "address": "530, Jangpyeong-dong, Geoje, Gyeongsangnam-do, 656-710",
+          "website": "https://www.samsungshi.com/eng/default.aspx",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": "HD HYUNDAI INFRACORE",
+          "country": "SOUTH KOREA",
+          "address": "489 Injung-ro, Dong-gu, Incheon, South Korea",
+          "website": "https://www.hd-hyundaiengine.com/en",
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "AMERICAN BUREAU OF SHIPPING",
+          "country": "U.S.A.",
+          "address": "1701 City Plaza Drive Spring, TX 77389, U.S.A",
+          "website": "https://ww2.eagle.org/en.html",
+          "startDate": "2010-10-21"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "NORTHSTANDARD",
+          "country": "U.K.",
+          "address": "London EC3V 1LR, UK",
+          "website": "https://north-standard.com/",
+          "startDate": "2024-06-19"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "AAMIRA",
+        "commercialFleet": "LNG CARRIERS",
+        "generalVesselType": "LNG TANKER",
+        "detailedVesselType": "LNG TANKER",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Marshall Is",
+        "portOfRegistry": "MAJURO ATOLL",
+        "keelLaidDate": "2009-05-04"
+      },
+      "hull": {
+        "yearOfBuild": 2010,
+        "yardNumber": null,
+        "hullMaterial": "HIGH STRENGTH STEEL - ABS - GRADE FH36",
+        "hullType": "SINGLE HULL",
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 280,
+        "lengthAft": 65,
+        "widthLeft": 36,
+        "widthRight": 17.83,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 345,
+        "lengthBetweenPerpendiculars": 332,
+        "breadthExtreme": 53.83,
+        "breadthMoulded": 53.8,
+        "draught": 12.2,
+        "depth": 27,
+        "freeboard": 14814
+      },
+      "tonnage": {
+        "grossTonnage": 163922,
+        "deadweightTonnage": 143268,
+        "netTonnage": 51596,
+        "loadedDisplacementTonnage": 178579,
+        "lightDisplacementTonnage": 48553
+      },
+      "capacity": {
+        "liquidCapacity": null,
+        "gasCapacity": 260912,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": 88672
+      },
+      "engine": {
+        "enginePower": 18940,
+        "engineUnits": 2,
+        "engineCylinderUnits": 7,
+        "engineBore": 700,
+        "engineStroke": 2800,
+        "engineRpm": 91,
+        "engineType": null,
+        "speedService": 19.5,
+        "propeller": "2 FIXED PITCH"
+      },
+      "fuel": {
+        "mainEngineFuelType": "MARINE DIESEL",
+        "fuelCapacity": 9283
+      }
+    }
+  },
+  {
+    "identifier": {
+      "imo": 9645736,
+      "mmsi": 432994000,
+      "callSign": "7JQG",
+      "eni": null,
+      "shipId": 1208797
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": "OSAKA GAS INTERNATIONAL TRANSPORT INC",
+          "country": "JAPAN",
+          "address": "4 Chome-1 Hiranomachi, Chuo Ward, Osaka, 541-0046, Japan",
+          "website": "https://www.osakagas.co.jp/",
+          "startDate": "2014-11-15"
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "OSAKA GAS INT & MITSUI OSK",
+          "country": "JAPAN",
+          "address": "Japan, @105-0001 Tokyo, Minato City, Toranomon, 1-chome-1, Tian Ji biru",
+          "website": null,
+          "startDate": "2014-11-15"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "MOL LNG TRANSPORT CO LTD",
+          "country": "JAPAN",
+          "address": "1-1, Toranomon 2-chome, Minato-ku, Tokyo, 105-0001, Japan.",
+          "website": "https://nyklngsm.com/",
+          "startDate": "2014-11-15"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": "MOL LNG TRANSPORT CO LTD",
+          "country": "JAPAN",
+          "address": "1-1, Toranomon 2-chome, Minato-ku, Tokyo, 105-0001, Japan.",
+          "website": "https://nyklngsm.com/",
+          "startDate": "2014-11-15"
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": "MOL LNG TRANSPORT CO LTD",
+          "country": "JAPAN",
+          "address": "1-1, Toranomon 2-chome, Minato-ku, Tokyo, 105-0001, Japan.",
+          "website": "https://nyklngsm.com/",
+          "startDate": "2015-03-20"
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": "MOL LNG TRANSPORT CO LTD",
+          "country": "JAPAN",
+          "address": "1-1, Toranomon 2-chome, Minato-ku, Tokyo, 105-0001, Japan.",
+          "website": "https://nyklngsm.com/",
+          "startDate": "2015-03-20"
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "MITSUBISHI HEAVY INDUSTRIES",
+          "country": "JAPAN",
+          "address": "Nagasaki, Japan",
+          "website": "https://www.mhi.com/group/mhimsb/",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": "MITSUBISHI HEAVY INDUSTRIES",
+          "country": "JAPAN",
+          "address": "Nagasaki, Japan",
+          "website": "https://www.mhi.com/group/mhimsb/",
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "NIPPON KAIJI KYOKAI",
+          "country": "JAPAN",
+          "address": "4-7, Kioi-cho, Chiyoda-ku, Tokyo, 102-8567, Japan",
+          "website": "http://www.classnk.or.jp/",
+          "startDate": "2014-11-10"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "UK P&I CLUB",
+          "country": "U.K.",
+          "address": "90 Fenchurch Street, London EC3M 4ST, UK",
+          "website": "https://www.ukpandi.com/",
+          "startDate": "2014-11-13"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "LNG VENUS",
+        "commercialFleet": "LNG CARRIERS",
+        "generalVesselType": "LNG TANKER",
+        "detailedVesselType": "LNG TANKER",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Japan",
+        "portOfRegistry": "OSAKA",
+        "keelLaidDate": "2012-12-11"
+      },
+      "hull": {
+        "yearOfBuild": 2014,
+        "yardNumber": "2295",
+        "hullMaterial": "STEEL",
+        "hullType": "SINGLE HULL",
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 227,
+        "lengthAft": 61,
+        "widthLeft": 35,
+        "widthRight": 13.94,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 288,
+        "lengthBetweenPerpendiculars": 275,
+        "breadthExtreme": 48.94,
+        "breadthMoulded": 48.94,
+        "draught": 12.53,
+        "depth": 26,
+        "freeboard": 9562
+      },
+      "tonnage": {
+        "grossTonnage": 136710,
+        "deadweightTonnage": 86241,
+        "netTonnage": 41013,
+        "loadedDisplacementTonnage": 120406,
+        "lightDisplacementTonnage": 34165
+      },
+      "capacity": {
+        "liquidCapacity": 155873,
+        "gasCapacity": 155300,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": 62985
+      },
+      "engine": {
+        "enginePower": 26000,
+        "engineUnits": 1,
+        "engineCylinderUnits": null,
+        "engineBore": null,
+        "engineStroke": null,
+        "engineRpm": 5812,
+        "engineType": "STEAM",
+        "speedService": 26,
+        "propeller": null
+      },
+      "fuel": {
+        "mainEngineFuelType": null,
+        "fuelCapacity": 6069
+      }
+    }
+  },
+  {
+    "identifier": {
+      "imo": 9709025,
+      "mmsi": 538007621,
+      "callSign": "V7XI9",
+      "eni": null,
+      "shipId": 5463026
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": "FLEX LNG LTD",
+          "country": "BERMUDA",
+          "address": "Par-La-Ville Place, 14 Par-La-Ville Rd, Hamilton, Bermuda",
+          "website": "https://www.flexlng.com/",
+          "startDate": "2018-06-22"
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "FLEX LNG RANGER LTD",
+          "country": "MARSHALL ISLANDS",
+          "address": "Ajeltake, Majuro Atoll, RMI",
+          "website": null,
+          "startDate": "2018-06-22"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "FLEX LNG MANAGEMENT",
+          "country": "U.K.",
+          "address": "6th Floor, 100 Brompton Rd, London SW3 1ER, UK",
+          "website": "http://www.flexlng.com",
+          "startDate": "2018-06-22"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": "CHENIERE MARKETING INTERNATIONAL LLP",
+          "country": "UNITED KINGDOM",
+          "address": null,
+          "website": null,
+          "startDate": "2018-06-22"
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": "FLEX LNG FLEET MANAGEMENT LTD",
+          "country": "NORWAY",
+          "address": "Bryggegata 3, 0250 Oslo, Norway",
+          "website": "https://www.flexlng.com/",
+          "startDate": "2020-07-20"
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": "FLEX LNG FLEET MANAGEMENT LTD",
+          "country": "NORWAY",
+          "address": "Bryggegata 3, 0250 Oslo, Norway",
+          "website": "https://www.flexlng.com/",
+          "startDate": "2020-07-20"
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "SAMSUNG HEAVY INDUSTRIES CO LTD",
+          "country": "SOUTH KOREA",
+          "address": "530, Jangpyeong-dong, Geoje, Gyeongsangnam-do, 656-710",
+          "website": "https://www.samsungshi.com/eng/default.aspx",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": null,
+          "country": null,
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "AMERICAN BUREAU OF SHIPPING",
+          "country": "U.S.A.",
+          "address": "1701 City Plaza Drive Spring, TX 77389, U.S.A",
+          "website": "https://ww2.eagle.org/en.html",
+          "startDate": "2018-10-25"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "GARD P&I",
+          "country": "NORWAY",
+          "address": "Kittelsbuktveien 31, 4836 Arendal, Norway",
+          "website": "http://www.gard.no/",
+          "startDate": "2024-03-20"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "FLEX RANGER",
+        "commercialFleet": "LNG CARRIERS",
+        "generalVesselType": "LNG TANKER",
+        "detailedVesselType": "LNG TANKER",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Marshall Is",
+        "portOfRegistry": "MAJURO ATOLL",
+        "keelLaidDate": "2017-04-03"
+      },
+      "hull": {
+        "yearOfBuild": 2018,
+        "yardNumber": null,
+        "hullMaterial": "STEEL",
+        "hullType": null,
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 231,
+        "lengthAft": 62,
+        "widthLeft": 22,
+        "widthRight": 23.84,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 293,
+        "lengthBetweenPerpendiculars": 285,
+        "breadthExtreme": 45.84,
+        "breadthMoulded": 45.8,
+        "draught": 12.5,
+        "depth": 26.2,
+        "freeboard": null
+      },
+      "tonnage": {
+        "grossTonnage": 115174,
+        "deadweightTonnage": 88684,
+        "netTonnage": 34860,
+        "loadedDisplacementTonnage": 123410,
+        "lightDisplacementTonnage": 34726
+      },
+      "capacity": {
+        "liquidCapacity": null,
+        "gasCapacity": 174000,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": null
+      },
+      "engine": {
+        "enginePower": null,
+        "engineUnits": 2,
+        "engineCylinderUnits": null,
+        "engineBore": 700,
+        "engineStroke": null,
+        "engineRpm": 74,
+        "engineType": null,
+        "speedService": 19.5,
+        "propeller": "1 FIXED PITCH"
+      },
+      "fuel": {
+        "mainEngineFuelType": null,
+        "fuelCapacity": null
+      }
+    }
+  },
+  {
+    "identifier": {
+      "imo": 9750713,
+      "mmsi": 311000627,
+      "callSign": "C6DB3",
+      "eni": null,
+      "shipId": 5387514
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": null,
+          "country": null,
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "TC LNG EXPLORER II LLC",
+          "country": "MARSHALL ISLANDS",
+          "address": "Ajeltake, Majuro Atoll, RMI",
+          "website": null,
+          "startDate": "2018-10-01"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "YAMAL LNG OAO",
+          "country": "RUSSIA",
+          "address": "ul Khersonskaya 43/3",
+          "website": "http://www.yamallng.ru",
+          "startDate": "2023-09-20"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": "YAMAL TRADE PTE LTD",
+          "country": "SINGAPORE",
+          "address": "17-01, Goldbell Towers, 47, Scotts Road",
+          "website": null,
+          "startDate": "2023-09-20"
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": "SEAPEAK MARITIME OPERATING LLC",
+          "country": "BERMUDA",
+          "address": "69 Pitts Bay Rd, Bermuda",
+          "website": "www.seapeak.com",
+          "startDate": "2023-09-17"
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": "SEAPEAK MARITIME OPERATING LLC",
+          "country": "BERMUDA",
+          "address": "69 Pitts Bay Rd, Bermuda",
+          "website": "www.seapeak.com",
+          "startDate": "2023-09-17"
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "DAEWOO SHIPBUILDING MARINE ENGINEERING",
+          "country": "SOUTH KOREA",
+          "address": "Geoje-si, Gyeongsangnam-do, South Korea",
+          "website": "http://www.dsme.co.kr/epub/main/index.do",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": "ABB MARINE  PORTS",
+          "country": "SWITZERLAND",
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "BUREAU VERITAS",
+          "country": "FRANCE",
+          "address": "40 Boulevard du Parc, Neuilly-sur-Seine, Paris",
+          "website": "https://group.bureauveritas.com/",
+          "startDate": "2018-08-18"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "NORTHSTANDARD",
+          "country": "U.K.",
+          "address": "London EC3V 1LR, UK",
+          "website": "https://north-standard.com/",
+          "startDate": "2024-06-19"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "RUDOLF SAMOYLOVICH",
+        "commercialFleet": "LNG CARRIERS",
+        "generalVesselType": "LNG TANKER",
+        "detailedVesselType": "LNG TANKER",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Bahamas",
+        "portOfRegistry": "NASSAU",
+        "keelLaidDate": null
+      },
+      "hull": {
+        "yearOfBuild": 2018,
+        "yardNumber": "2425",
+        "hullMaterial": "Steel",
+        "hullType": null,
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 220,
+        "lengthAft": 79,
+        "widthLeft": 31,
+        "widthRight": 19,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 299,
+        "lengthBetweenPerpendiculars": 283,
+        "breadthExtreme": 50,
+        "breadthMoulded": 50,
+        "draught": 13,
+        "depth": 26.5,
+        "freeboard": 9309
+      },
+      "tonnage": {
+        "grossTonnage": 128975,
+        "deadweightTonnage": 96703,
+        "netTonnage": 38692,
+        "loadedDisplacementTonnage": 143866,
+        "lightDisplacementTonnage": 47027
+      },
+      "capacity": {
+        "liquidCapacity": null,
+        "gasCapacity": 172000,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": null
+      },
+      "engine": {
+        "enginePower": 45000,
+        "engineUnits": 2,
+        "engineCylinderUnits": null,
+        "engineBore": 500,
+        "engineStroke": null,
+        "engineRpm": 500,
+        "engineType": "Diesel-Ele",
+        "speedService": 19.5,
+        "propeller": "3 Pod Solid LB (oil -closed) 10.00 at 150 rpm"
+      },
+      "fuel": {
+        "mainEngineFuelType": "Diesel oil, Heavy oil, Gas(methane)",
+        "fuelCapacity": 7098
+      }
+    }
+  },
+  {
+    "identifier": {
+      "imo": 9762261,
+      "mmsi": 538010102,
+      "callSign": "V7A5602",
+      "eni": null,
+      "shipId": 5163870
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": "FLEX LNG LTD",
+          "country": "BERMUDA",
+          "address": "Par-La-Ville Place, 14 Par-La-Ville Rd, Hamilton, Bermuda",
+          "website": "https://www.flexlng.com/",
+          "startDate": "2022-09-07"
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "LSMHL27 CO LTD",
+          "country": "MARSHALL ISLANDS",
+          "address": "Trust Company Complex, Ajeltake Road, Ajeltake",
+          "website": null,
+          "startDate": "2024-10-03"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "FLEX LNG MANAGEMENT",
+          "country": "U.K.",
+          "address": "6th Floor, 100 Brompton Rd, London SW3 1ER, UK",
+          "website": "http://www.flexlng.com",
+          "startDate": "2022-09-07"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": "FLEX LNG MANAGEMENT",
+          "country": "U.K.",
+          "address": "6th Floor, 100 Brompton Rd, London SW3 1ER, UK",
+          "website": "http://www.flexlng.com",
+          "startDate": "2022-09-07"
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": "FLEX LNG FLEET MANAGEMENT LTD",
+          "country": "NORWAY",
+          "address": "Bryggegata 3, 0250 Oslo, Norway",
+          "website": "https://www.flexlng.com/",
+          "startDate": "2020-01-27"
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": "FLEX LNG FLEET MANAGEMENT LTD",
+          "country": "NORWAY",
+          "address": "Bryggegata 3, 0250 Oslo, Norway",
+          "website": "https://www.flexlng.com/",
+          "startDate": "2020-01-27"
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "DAEWOO SHIPBUILDING MARINE ENGINEERING",
+          "country": "SOUTH KOREA",
+          "address": "Geoje-si, Gyeongsangnam-do, South Korea",
+          "website": "http://www.dsme.co.kr/epub/main/index.do",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": null,
+          "country": null,
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "AMERICAN BUREAU OF SHIPPING",
+          "country": "U.S.A.",
+          "address": "1701 City Plaza Drive Spring, TX 77389, U.S.A",
+          "website": "https://ww2.eagle.org/en.html",
+          "startDate": "2018-07-26"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "NORTHSTANDARD",
+          "country": "U.K.",
+          "address": "London EC3V 1LR, UK",
+          "website": "https://north-standard.com/",
+          "startDate": "2022-06-09"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "FLEX ENDEAVOUR",
+        "commercialFleet": "LNG CARRIERS",
+        "generalVesselType": "LNG TANKER",
+        "detailedVesselType": "LNG TANKER",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Marshall Is",
+        "portOfRegistry": "VALLETTA",
+        "keelLaidDate": null
+      },
+      "hull": {
+        "yearOfBuild": 2018,
+        "yardNumber": null,
+        "hullMaterial": "ORDINARY STRENGTH STEEL - ABS - GRADE D",
+        "hullType": null,
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 237,
+        "lengthAft": 57.9,
+        "widthLeft": 21,
+        "widthRight": 25,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 294.9,
+        "lengthBetweenPerpendiculars": 282.9,
+        "breadthExtreme": null,
+        "breadthMoulded": 46.4,
+        "draught": 11.5,
+        "depth": 26.5,
+        "freeboard": null
+      },
+      "tonnage": {
+        "grossTonnage": 113049,
+        "deadweightTonnage": 95803,
+        "netTonnage": 36562,
+        "loadedDisplacementTonnage": 131178,
+        "lightDisplacementTonnage": 35375
+      },
+      "capacity": {
+        "liquidCapacity": null,
+        "gasCapacity": 173400,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": 61536
+      },
+      "engine": {
+        "enginePower": null,
+        "engineUnits": 2,
+        "engineCylinderUnits": null,
+        "engineBore": 700,
+        "engineStroke": null,
+        "engineRpm": 83,
+        "engineType": null,
+        "speedService": 18,
+        "propeller": null
+      },
+      "fuel": {
+        "mainEngineFuelType": null,
+        "fuelCapacity": 5271
+      }
+    }
+  },
+  {
+    "identifier": {
+      "imo": 9830898,
+      "mmsi": 533131195,
+      "callSign": "9WNN4",
+      "eni": null,
+      "shipId": 6114687
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": "AVENIR LNG UK LTD",
+          "country": "UNITED KINGDOM",
+          "address": "3rd Floor, 41-44 Great Queen St, London WC2B 5AD, UK",
+          "website": "https://avenirlng.com/",
+          "startDate": "2020-10-14"
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "AVENIR L PTE LTD",
+          "country": "MALAYSIA",
+          "address": "Grev Wedels Plass 5, 0151 Oslo, Norway",
+          "website": null,
+          "startDate": "2020-10-14"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "STOLTNIELSEN GAS LTD",
+          "country": "NORWAY",
+          "address": "Grev Wedels Plass 5, 0151 Oslo, Norway",
+          "website": null,
+          "startDate": "2020-10-14"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": "PETCO TRADING LABUAN CO LTD",
+          "country": "MALAYSIA",
+          "address": "Jln Ampang, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+          "website": null,
+          "startDate": "2024-01-04"
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": "EAGLESTAR SHIPMANAGEMENT L",
+          "country": "MALAYSIA",
+          "address": "Dayabumi, City Centre, 50050 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+          "website": null,
+          "startDate": "2020-10-14"
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": "EAGLESTAR SHIPMANAGEMENT L",
+          "country": "MALAYSIA",
+          "address": "Dayabumi, City Centre, 50050 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+          "website": null,
+          "startDate": "2020-10-14"
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "KEPPEL NANTONG SHIPYARD",
+          "country": "CHINA",
+          "address": null,
+          "website": "http://www.keppelom.com",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": null,
+          "country": null,
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "DNV GROUP",
+          "country": "NORWAY",
+          "address": "Veritasveien 1, 1363 Hovik, Norway",
+          "website": "https://www.dnv.com/",
+          "startDate": "2020-10-14"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "GARD P&I",
+          "country": "NORWAY",
+          "address": "Kittelsbuktveien 31, 4836 Arendal, Norway",
+          "website": "http://www.gard.no/",
+          "startDate": "2024-08-20"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "AVENIR ADVANTAGE",
+        "commercialFleet": "WET BULK",
+        "generalVesselType": "BUNKERING TANKER",
+        "detailedVesselType": "BUNKERING TANKER",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Malaysia",
+        "portOfRegistry": null,
+        "keelLaidDate": null
+      },
+      "hull": {
+        "yearOfBuild": 2020,
+        "yardNumber": null,
+        "hullMaterial": null,
+        "hullType": null,
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 106,
+        "lengthAft": 17.48,
+        "widthLeft": 5,
+        "widthRight": 13.62,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 123.48,
+        "lengthBetweenPerpendiculars": 118.34,
+        "breadthExtreme": 18.62,
+        "breadthMoulded": 18,
+        "draught": 5.65,
+        "depth": 9.2,
+        "freeboard": null
+      },
+      "tonnage": {
+        "grossTonnage": 7308,
+        "deadweightTonnage": 3800,
+        "netTonnage": 2346,
+        "loadedDisplacementTonnage": null,
+        "lightDisplacementTonnage": null
+      },
+      "capacity": {
+        "liquidCapacity": null,
+        "gasCapacity": null,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": null
+      },
+      "engine": {
+        "enginePower": null,
+        "engineUnits": 1,
+        "engineCylinderUnits": null,
+        "engineBore": 340,
+        "engineStroke": null,
+        "engineRpm": 720,
+        "engineType": null,
+        "speedService": 14,
+        "propeller": null
+      },
+      "fuel": {
+        "mainEngineFuelType": null,
+        "fuelCapacity": null
+      }
+    }
+  },
+  {
+    "identifier": {
+      "imo": 9830903,
+      "mmsi": 215741000,
+      "callSign": "9HA5264",
+      "eni": null,
+      "shipId": 6427842
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": "KOWA KAIUN KK KOWA SHIPPING CO LTD ",
+          "country": "JAPAN",
+          "address": null,
+          "website": null,
+          "startDate": "2024-05-09"
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "PRIMER MARITIME PVT INC",
+          "country": "UNITED KINGDOM",
+          "address": "80 Broad Street",
+          "website": null,
+          "startDate": "2023-07-31"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "AVENIR LNG UK LTD",
+          "country": "UNITED KINGDOM",
+          "address": "3rd Floor, 41-44 Great Queen St, London WC2B 5AD, UK",
+          "website": "https://avenirlng.com/",
+          "startDate": "2024-07-12"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": "PETCO TRADING LABUAN CO LTD",
+          "country": "MALAYSIA",
+          "address": "Jln Ampang, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+          "website": null,
+          "startDate": "2024-01-04"
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": "WILHELMSEN SHIP MANAGEMENT AS",
+          "country": "NORWAY",
+          "address": "Strandveien 20, 1366 Lysaker, Norway.",
+          "website": "http://www.wilhelmsen.com/",
+          "startDate": "2024-07-12"
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": "WILHELMSEN SHIP MANAGEMENT AS",
+          "country": "NORWAY",
+          "address": "Strandveien 20, 1366 Lysaker, Norway.",
+          "website": "http://www.wilhelmsen.com/",
+          "startDate": "2024-07-12"
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "KEPPEL NANTONG SHIPYARD",
+          "country": "CHINA",
+          "address": null,
+          "website": "http://www.keppelom.com",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": null,
+          "country": null,
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "DNV GROUP",
+          "country": "NORWAY",
+          "address": "Veritasveien 1, 1363 Hovik, Norway",
+          "website": "https://www.dnv.com/",
+          "startDate": "2021-03-10"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "GARD P&I",
+          "country": "NORWAY",
+          "address": "Kittelsbuktveien 31, 4836 Arendal, Norway",
+          "website": "http://www.gard.no/",
+          "startDate": "2024-10-20"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "AVENIR ACCOLADE",
+        "commercialFleet": "LNG CARRIERS",
+        "generalVesselType": "LNG TANKER",
+        "detailedVesselType": "LNG TANKER",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Malta",
+        "portOfRegistry": "VALLETTA",
+        "keelLaidDate": "2018-03-24"
+      },
+      "hull": {
+        "yearOfBuild": 2021,
+        "yardNumber": null,
+        "hullMaterial": "Steel",
+        "hullType": null,
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 88,
+        "lengthAft": 35.48,
+        "widthLeft": 7,
+        "widthRight": 11.62,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 123.48,
+        "lengthBetweenPerpendiculars": 118.34,
+        "breadthExtreme": 18.62,
+        "breadthMoulded": 18.6,
+        "draught": 5.65,
+        "depth": 9.2,
+        "freeboard": null
+      },
+      "tonnage": {
+        "grossTonnage": 7817,
+        "deadweightTonnage": 4356,
+        "netTonnage": 2346,
+        "loadedDisplacementTonnage": null,
+        "lightDisplacementTonnage": null
+      },
+      "capacity": {
+        "liquidCapacity": null,
+        "gasCapacity": 7350,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": 2816
+      },
+      "engine": {
+        "enginePower": null,
+        "engineUnits": 1,
+        "engineCylinderUnits": null,
+        "engineBore": 340,
+        "engineStroke": null,
+        "engineRpm": 720,
+        "engineType": null,
+        "speedService": 14,
+        "propeller": null
+      },
+      "fuel": {
+        "mainEngineFuelType": null,
+        "fuelCapacity": null
+      }
+    }
+  },
+  {
+    "identifier": {
+      "imo": 9831684,
+      "mmsi": 650000123,
+      "callSign": "C91SPF",
+      "eni": null,
+      "shipId": 6691004
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": "ENI SPA",
+          "country": "ITALY",
+          "address": "Piazzale Enrico Mattei, 1, 00144 Roma RM, Italy",
+          "website": "http://www.eni.it",
+          "startDate": "2017-08-30"
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "CORAL FLNG SA",
+          "country": "ITALY",
+          "address": "Piazzale Enrico Mattei, 1, 00144 Roma RM, Italy",
+          "website": null,
+          "startDate": "2021-11-16"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "CORAL FLNG SA",
+          "country": "ITALY",
+          "address": "Piazzale Enrico Mattei, 1, 00144 Roma RM, Italy",
+          "website": null,
+          "startDate": "2021-11-16"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": null,
+          "country": null,
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": null,
+          "country": null,
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": null,
+          "country": null,
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "SAMSUNG HEAVY INDUSTRIES CO LTD",
+          "country": "SOUTH KOREA",
+          "address": "530, Jangpyeong-dong, Geoje, Gyeongsangnam-do, 656-710",
+          "website": "https://www.samsungshi.com/eng/default.aspx",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": null,
+          "country": null,
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "LLOYD'S REGISTER",
+          "country": "U.K.",
+          "address": "71 Fenchurch Street, London, United Kingdom",
+          "website": "https://www.lr.org/en/",
+          "startDate": "2021-12-17"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "NORTHSTANDARD",
+          "country": "U.K.",
+          "address": "London EC3V 1LR, UK",
+          "website": "https://north-standard.com/",
+          "startDate": "2024-06-19"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "CORAL SUL FLNG",
+        "commercialFleet": "OTHER MARKETS",
+        "generalVesselType": "FLOATING STORAGE/PRODUCTION",
+        "detailedVesselType": "FLOATING STORAGE/PRODUCTION",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Mozambique",
+        "portOfRegistry": "NASSAU",
+        "keelLaidDate": null
+      },
+      "hull": {
+        "yearOfBuild": 2021,
+        "yardNumber": null,
+        "hullMaterial": null,
+        "hullType": null,
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 46,
+        "lengthAft": 386,
+        "widthLeft": 40,
+        "widthRight": 26,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 432,
+        "lengthBetweenPerpendiculars": 387.89,
+        "breadthExtreme": 66,
+        "breadthMoulded": 66,
+        "draught": null,
+        "depth": 38.5,
+        "freeboard": null
+      },
+      "tonnage": {
+        "grossTonnage": 346165,
+        "deadweightTonnage": 220000,
+        "netTonnage": 103849,
+        "loadedDisplacementTonnage": null,
+        "lightDisplacementTonnage": null
+      },
+      "capacity": {
+        "liquidCapacity": null,
+        "gasCapacity": 233926,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": null
+      },
+      "engine": {
+        "enginePower": null,
+        "engineUnits": null,
+        "engineCylinderUnits": null,
+        "engineBore": null,
+        "engineStroke": null,
+        "engineRpm": null,
+        "engineType": null,
+        "speedService": null,
+        "propeller": null
+      },
+      "fuel": {
+        "mainEngineFuelType": null,
+        "fuelCapacity": null
+      }
+    }
+  },
+  {
+    "identifier": {
+      "imo": 9853137,
+      "mmsi": 310786000,
+      "callSign": "ZCEY2",
+      "eni": null,
+      "shipId": 6149864
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": "GASLOG LTD",
+          "country": "GREECE",
+          "address": "69, Akti Miaouli, 185 37 Piraeus, Greece.",
+          "website": "http://www.gaslogltd.com/",
+          "startDate": "2016-10-03"
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "GASTHIRTY ONE LTD",
+          "country": "BERMUDA",
+          "address": "Akti Miaouli 69, Pireas 185 37, Greece",
+          "website": null,
+          "startDate": "2020-05-11"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "JERA",
+          "country": "JAPAN",
+          "address": null,
+          "website": "http://www.jera.co.jp/english/",
+          "startDate": "2024-03-12"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": "JERA CO INC",
+          "country": "JAPAN",
+          "address": null,
+          "website": null,
+          "startDate": "2020-05-12"
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": "GASLOG LNG SERVICES LTD",
+          "country": "GREECE",
+          "address": "69, Akti Miaouli, 185 37 Piraeus, Greece.",
+          "website": "https://www.gaslogltd.com/",
+          "startDate": "2020-05-11"
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": "GASLOG LNG SERVICES LTD",
+          "country": "GREECE",
+          "address": "69, Akti Miaouli, 185 37 Piraeus, Greece.",
+          "website": "https://www.gaslogltd.com/",
+          "startDate": "2020-05-11"
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "SAMSUNG HEAVY INDUSTRIES CO LTD",
+          "country": "SOUTH KOREA",
+          "address": "530, Jangpyeong-dong, Geoje, Gyeongsangnam-do, 656-710",
+          "website": "https://www.samsungshi.com/eng/default.aspx",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": null,
+          "country": null,
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "AMERICAN BUREAU OF SHIPPING",
+          "country": "U.S.A.",
+          "address": "1701 City Plaza Drive Spring, TX 77389, U.S.A",
+          "website": "https://ww2.eagle.org/en.html",
+          "startDate": "2020-07-23"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "THE WEST OF ENGLAND SHIP OWNERS MUTUAL INSURANCE ASSOCIATION",
+          "country": "U.K.",
+          "address": "One Creechurch Place, Creechurch Lane, London EC3A 5AF",
+          "website": "https://www.westpandi.com/",
+          "startDate": "2024-01-02"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "GASLOG WALES",
+        "commercialFleet": "LNG CARRIERS",
+        "generalVesselType": "LNG TANKER",
+        "detailedVesselType": "LNG TANKER",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Bermuda",
+        "portOfRegistry": "HAMILTON",
+        "keelLaidDate": null
+      },
+      "hull": {
+        "yearOfBuild": 2020,
+        "yardNumber": null,
+        "hullMaterial": null,
+        "hullType": null,
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 235,
+        "lengthAft": 62.07,
+        "widthLeft": 20,
+        "widthRight": 27,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 297.07,
+        "lengthBetweenPerpendiculars": 290,
+        "breadthExtreme": null,
+        "breadthMoulded": 47,
+        "draught": 11.65,
+        "depth": 26.2,
+        "freeboard": null
+      },
+      "tonnage": {
+        "grossTonnage": 120859,
+        "deadweightTonnage": 94700,
+        "netTonnage": 36257,
+        "loadedDisplacementTonnage": 130230,
+        "lightDisplacementTonnage": 37154
+      },
+      "capacity": {
+        "liquidCapacity": null,
+        "gasCapacity": 180000,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": null
+      },
+      "engine": {
+        "enginePower": null,
+        "engineUnits": 2,
+        "engineCylinderUnits": null,
+        "engineBore": 720,
+        "engineStroke": null,
+        "engineRpm": 74,
+        "engineType": null,
+        "speedService": 19.5,
+        "propeller": null
+      },
+      "fuel": {
+        "mainEngineFuelType": null,
+        "fuelCapacity": null
+      }
+    }
+  },
+  {
+    "identifier": {
+      "imo": 9862475,
+      "mmsi": 538009179,
+      "callSign": "V7A4416",
+      "eni": null,
+      "shipId": 6504589
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": "FLEX LNG MANAGEMENT",
+          "country": "U.K.",
+          "address": "6th Floor, 100 Brompton Rd, London SW3 1ER, UK",
+          "website": "http://www.flexlng.com",
+          "startDate": "2021-06-02"
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "FLEX VIGILANT LTD",
+          "country": "MARSHALL ISLANDS",
+          "address": "Ajeltake, Majuro Atoll, RMI",
+          "website": null,
+          "startDate": "2021-05-31"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "FLEX LNG FLEET MANAGEMENT LTD",
+          "country": "NORWAY",
+          "address": "Bryggegata 3, 0250 Oslo, Norway",
+          "website": "https://www.flexlng.com/",
+          "startDate": "2021-05-31"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": null,
+          "country": null,
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": "FLEX LNG FLEET MANAGEMENT LTD",
+          "country": "NORWAY",
+          "address": "Bryggegata 3, 0250 Oslo, Norway",
+          "website": "https://www.flexlng.com/",
+          "startDate": "2021-05-31"
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": "FLEX LNG FLEET MANAGEMENT LTD",
+          "country": "NORWAY",
+          "address": "Bryggegata 3, 0250 Oslo, Norway",
+          "website": "https://www.flexlng.com/",
+          "startDate": "2021-05-31"
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "HYUNDAI SAMHO HEAVY INDUSTRIES",
+          "country": "SOUTH KOREA",
+          "address": "1700, Yongang-ri, Samho-eup, Yeongam-gun, Jeollanam-do, 526-701, South Korea.",
+          "website": "http://www.hshi.co.kr",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": null,
+          "country": null,
+          "address": null,
+          "website": null,
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "DNV GROUP",
+          "country": "NORWAY",
+          "address": "Veritasveien 1, 1363 Hovik, Norway",
+          "website": "https://www.dnv.com/",
+          "startDate": "2021-05-31"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "NORTHSTANDARD",
+          "country": "U.K.",
+          "address": "London EC3V 1LR, UK",
+          "website": "https://north-standard.com/",
+          "startDate": "2022-06-09"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "FLEX VIGILANT",
+        "commercialFleet": "LNG CARRIERS",
+        "generalVesselType": "LNG TANKER",
+        "detailedVesselType": "LNG TANKER",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Marshall Is",
+        "portOfRegistry": "MAJURO ATOLL",
+        "keelLaidDate": "2020-04-20"
+      },
+      "hull": {
+        "yearOfBuild": 2021,
+        "yardNumber": null,
+        "hullMaterial": "Steel",
+        "hullType": null,
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 230,
+        "lengthAft": 67,
+        "widthLeft": 26,
+        "widthRight": 20.43,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 297,
+        "lengthBetweenPerpendiculars": 291,
+        "breadthExtreme": 46.43,
+        "breadthMoulded": 46.4,
+        "draught": 12.5,
+        "depth": 26.5,
+        "freeboard": null
+      },
+      "tonnage": {
+        "grossTonnage": 116430,
+        "deadweightTonnage": 93764,
+        "netTonnage": 34930,
+        "loadedDisplacementTonnage": 128195,
+        "lightDisplacementTonnage": 34431
+      },
+      "capacity": {
+        "liquidCapacity": null,
+        "gasCapacity": 174096,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": 64562
+      },
+      "engine": {
+        "enginePower": null,
+        "engineUnits": 1,
+        "engineCylinderUnits": null,
+        "engineBore": 720,
+        "engineStroke": null,
+        "engineRpm": 89,
+        "engineType": null,
+        "speedService": 18.5,
+        "propeller": null
+      },
+      "fuel": {
+        "mainEngineFuelType": null,
+        "fuelCapacity": null
+      }
+    }
+  },
+  {
+    "identifier": {
+      "imo": 9877145,
+      "mmsi": 209997000,
+      "callSign": "5BNK5",
+      "eni": null,
+      "shipId": 6492182
+    },
+    "management": {
+      "beneficialOwner": {
+        "current": {
+          "name": "SHUNZAN KAIUN Y K",
+          "country": "JAPAN",
+          "address": "2-1, Kitahorai-cho 2-chome, Imabari-shi, Ehime-ken, 794-0028, Japan.",
+          "website": "https://shunzan.com/english/",
+          "startDate": "2021-02-10"
+        }
+      },
+      "registeredOwner": {
+        "current": {
+          "name": "PRIMAVERA MONTANA SA",
+          "country": "PANAMA",
+          "address": "Obarrio, Panama, Provincia de Panama, Panama",
+          "website": null,
+          "startDate": "2021-02-10"
+        }
+      },
+      "commercialManager": {
+        "current": {
+          "name": "MOL LNG TRANSPORT EUROPE LTD",
+          "country": "U.K.",
+          "address": "3, Thomas More Street, London, E1W 1WY, United Kingdom.",
+          "website": "www.mol.co.jp",
+          "startDate": "2021-02-10"
+        }
+      },
+      "operator": {
+        "current": {
+          "name": "MITSUI OSK LINES LTD",
+          "country": "JAPAN",
+          "address": "1-1, Toranomon 2-chome, Minato-ku, Tokyo, 105-8688, Japan.",
+          "website": "http://www.mol.co.jp",
+          "startDate": "2023-12-22"
+        }
+      },
+      "technicalManager": {
+        "current": {
+          "name": "MOL LNG SHIP MANAGEMENT PTE",
+          "country": "SINGAPORE",
+          "address": "14-06, UIC Building, 5, Shenton Way, Singapore 068808",
+          "website": "https://www.molship-singapore.com/",
+          "startDate": "2022-07-12"
+        }
+      },
+      "ismManager": {
+        "current": {
+          "name": "MOL LNG SHIP MANAGEMENT PTE",
+          "country": "SINGAPORE",
+          "address": "14-06, UIC Building, 5, Shenton Way, Singapore 068808",
+          "website": "https://www.molship-singapore.com/",
+          "startDate": "2022-07-12"
+        }
+      }
+    },
+    "associatedCompanies": {
+      "shipBuilder": {
+        "current": {
+          "name": "DAEWOO SHIPBUILDING MARINE ENGINEERING",
+          "country": "SOUTH KOREA",
+          "address": "Geoje-si, Gyeongsangnam-do, South Korea",
+          "website": "http://www.dsme.co.kr/epub/main/index.do",
+          "startDate": null
+        }
+      },
+      "engineBuilder": {
+        "current": {
+          "name": "HANWHA ENGINE CO LTD",
+          "country": "SOUTH KOREA",
+          "address": "Changwon-si, Gyeongsangnam-do, South Korea",
+          "website": "https://www.hanwha-engine.com/",
+          "startDate": null
+        }
+      },
+      "classificationSociety": {
+        "current": {
+          "name": "BUREAU VERITAS",
+          "country": "FRANCE",
+          "address": "40 Boulevard du Parc, Neuilly-sur-Seine, Paris",
+          "website": "https://group.bureauveritas.com/",
+          "startDate": "2021-02-10"
+        }
+      },
+      "piClub": {
+        "current": {
+          "name": "THE JAPAN SHIP OWNERS MUTUAL PROTECTION & INDEMNITY ASSOCIATION",
+          "country": "JAPAN",
+          "address": "2 Chome-15-14 Nihonbashiningyocho, Chuo City, Tokyo 103-0013, Japan",
+          "website": "https://www.piclub.or.jp/en/",
+          "startDate": "2024-03-01"
+        }
+      }
+    },
+    "particulars": {
+      "general": {
+        "name": "GAIL BHUWAN",
+        "commercialFleet": "LNG CARRIERS",
+        "generalVesselType": "LNG TANKER",
+        "detailedVesselType": "LNG TANKER",
+        "serviceStatus": "IN_SERVICE",
+        "flag": "Cyprus",
+        "portOfRegistry": "LIMASSOL",
+        "keelLaidDate": null
+      },
+      "hull": {
+        "yearOfBuild": 2021,
+        "yardNumber": "2499",
+        "hullMaterial": "Steel",
+        "hullType": null,
+        "decks": "1"
+      },
+      "aisTransceiver": {
+        "lengthFore": 233,
+        "lengthAft": 64.9,
+        "widthLeft": 25,
+        "widthRight": 22.9,
+        "aisTransceiverClass": "CLASS_A"
+      },
+      "dimension": {
+        "lengthOverall": 297.9,
+        "lengthBetweenPerpendiculars": 291,
+        "breadthExtreme": 47.9,
+        "breadthMoulded": 47,
+        "draught": 12,
+        "depth": 26.5,
+        "freeboard": 8894
+      },
+      "tonnage": {
+        "grossTonnage": 119891,
+        "deadweightTonnage": 98882,
+        "netTonnage": 35967,
+        "loadedDisplacementTonnage": 135861,
+        "lightDisplacementTonnage": 36979
+      },
+      "capacity": {
+        "liquidCapacity": null,
+        "gasCapacity": 176523,
+        "baleCapacity": null,
+        "grainCapacity": null,
+        "teuCapacity": null,
+        "ceuCapacity": null,
+        "passengerCapacity": null,
+        "ballastCapacity": null
+      },
+      "engine": {
+        "enginePower": null,
+        "engineUnits": 2,
+        "engineCylinderUnits": 5,
+        "engineBore": 720,
+        "engineStroke": null,
+        "engineRpm": 69,
+        "engineType": null,
+        "speedService": 19.5,
+        "propeller": "2 Screw Propeller Solid LB (oil -closed) 10.00"
+      },
+      "fuel": {
+        "mainEngineFuelType": null,
+        "fuelCapacity": 5873
+      }
+    }
+  }
+]
