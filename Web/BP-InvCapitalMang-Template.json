@@ -1,0 +1,189 @@
+{
+  "sections": [
+    {
+      "id": "hero-banner",
+      "type": "hero",
+      "headline": "Smart Capital. Sustainable Growth. Timeless Strategy.",
+      "subheadline": "At Bahtera Perkasa, we transform market complexity into intelligent, tailored investment solutions designed to grow and preserve your wealth.",
+      "cta_buttons": [
+        { "label": "Book a Private Consultation", "link": "#contact" },
+        { "label": "Our Approach", "link": "#process" }
+      ],
+      "visual": {
+        "type": "video",
+        "suggestion": "Background video of city skyline at dawn with subtle market overlay (stock charts, financial terminals). Alternative: high-res image of confident investor overlooking city from skyscraper window."
+      },
+      "layout": {
+        "background": "full-width",
+        "text_align": "left",
+        "font": "serif",
+        "cta_style": "high-contrast"
+      }
+    },
+    {
+      "id": "overview",
+      "type": "content",
+      "heading": "A Disciplined Approach to Managing Wealth",
+      "text": "We are not just investment managers — we are architects of wealth strategies built for resilience, clarity, and consistent growth. Drawing on decades of multi-industry experience and a deep understanding of market behavior, we design personalized investment frameworks that align with your financial goals and risk profile. Whether you're focused on capital appreciation, income generation, or strategic diversification, we provide the insight and execution to bring your vision to life.",
+      "visual": {
+        "type": "image",
+        "suggestion": "Image of a high-level advisory meeting with professionals reviewing dashboards or property assets."
+      },
+      "layout": {
+        "columns": 2,
+        "text_position": "left",
+        "image_position": "right",
+        "mobile_reverse": true,
+        "animation": "fade-in"
+      }
+    },
+    {
+      "id": "what-we-offer",
+      "type": "services",
+      "heading": "Tailored Investment Solutions for Complex Goals",
+      "text": "Our services cover a full spectrum of investment and capital management capabilities. We actively manage diverse portfolios across sectors, industries, and geographies. With a strong focus on analytical rigor and future trends, our team identifies high-potential assets while minimizing exposure to volatility.\n\nFrom direct project involvement to passive investment structures, we offer flexible, end-to-end services including:",
+      "services": [
+        {
+          "title": "Portfolio Management",
+          "description": "Strategic allocation, rebalancing, and oversight tailored to your risk-return profile."
+        },
+        {
+          "title": "Property & Asset Management",
+          "description": "Holistic oversight of physical and intangible investments for optimal returns."
+        },
+        {
+          "title": "Business & Market Analysis",
+          "description": "Actionable insights from local and global economic trends."
+        },
+        {
+          "title": "Project & Development Oversight",
+          "description": "We support execution at every stage, from due diligence to delivery."
+        },
+        {
+          "title": "Investment Reporting & Regulatory Submissions",
+          "description": "Transparent reporting that keeps you informed and compliant."
+        }
+      ],
+      "visual": {
+        "type": "images",
+        "suggestion": [
+          "Investment reports",
+          "Construction or development blueprints",
+          "Real estate overview",
+          "Stock market trend graphs"
+        ]
+      },
+      "layout": {
+        "stacked_sections": true,
+        "image_after_every": 2
+      }
+    },
+    {
+      "id": "our-process",
+      "type": "process",
+      "heading": "Built on Trust, Backed by Process",
+      "text": "Our framework begins with understanding — your values, your goals, and your unique financial landscape. From there, we build forward:",
+      "steps": [
+        {
+          "title": "Discovery",
+          "description": "We gain deep insight into your current portfolio and objectives.",
+          "icon": "search"
+        },
+        {
+          "title": "Analysis",
+          "description": "We evaluate trends, risks, and opportunities across all sectors.",
+          "icon": "chart-line"
+        },
+        {
+          "title": "Structuring",
+          "description": "We design a customized investment plan with built-in resilience.",
+          "icon": "cogs"
+        },
+        {
+          "title": "Monitoring & Optimization",
+          "description": "Our advisors stay actively engaged, adjusting and reporting based on real-time developments.",
+          "icon": "sync"
+        }
+      ],
+      "visual": {
+        "type": "infographic",
+        "suggestion": "Minimalist infographic animation or timeline with icons representing each phase."
+      },
+      "layout": {
+        "timeline": "horizontal-or-vertical",
+        "background": "white"
+      }
+    },
+    {
+      "id": "why-choose-us",
+      "type": "about",
+      "heading": "Our Advantage: Experience, Integrity, and Insight",
+      "text": "With over 40 years of combined investment and industry experience, our leadership team brings sharp judgement and unwavering professionalism to each client engagement. Our edge lies not only in what we do — but how we do it: with discretion, transparency, and a deep commitment to building lasting relationships.\n\nWe maintain a global outlook while understanding the unique nuances of local and regional markets — particularly across Southeast Asia, where we identify fast-emerging sectors and untapped opportunities.",
+      "visual": {
+        "type": "images",
+        "suggestion": [
+          "Group photo of advisors in a meeting",
+          "Close-up of hands over financial documents",
+          "Satellite view of global trade routes (animated or static)"
+        ]
+      },
+      "layout": {
+        "image_position": "left",
+        "text_position": "right",
+        "testimonial_carousel": true
+      }
+    },
+    {
+      "id": "related-services",
+      "type": "services-cards",
+      "heading": "Looking for More? Explore Our Other Services",
+      "text": "Investment success goes hand-in-hand with broader strategic planning. We provide a complete suite of services that complement our investment offering.",
+      "cards": [
+        {
+          "title": "Risk Management",
+          "description": "Insight-driven risk frameworks to safeguard your wealth.",
+          "icon": "shield"
+        },
+        {
+          "title": "Strategic Consultancy",
+          "description": "Business advisory support to help you scale, pivot, or structure.",
+          "icon": "compass"
+        },
+        {
+          "title": "Estate & Portfolio Planning",
+          "description": "Legacy-focused solutions for intergenerational wealth transfer.",
+          "icon": "tree"
+        }
+      ],
+      "visual": {
+        "type": "icons",
+        "suggestion": "Clean icons or symbolic images (e.g., shield, compass, tree)."
+      },
+      "layout": {
+        "cards": 3,
+        "responsive": true,
+        "hover_effects": true,
+        "cta": "Learn More"
+      }
+    },
+    {
+      "id": "cta-footer",
+      "type": "footer",
+      "headline": "Let’s Build Something Enduring",
+      "text": "Every great investment begins with a conversation. Let us understand your aspirations, and we’ll help turn them into a timeless legacy.",
+      "cta_button": {
+        "label": "Schedule Your Private Briefing",
+        "link": "#contact"
+      },
+      "visual": {
+        "type": "video",
+        "suggestion": "Video background (slow pan of ocean horizon at golden hour or long-term project coming to life)."
+      },
+      "layout": {
+        "background": "full-width",
+        "overlay": "soft",
+        "text_align": "center"
+      }
+    }
+  ]
+}

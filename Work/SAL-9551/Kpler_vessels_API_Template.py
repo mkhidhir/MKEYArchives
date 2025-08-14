@@ -3,7 +3,7 @@ import json
 
 # - 1. Set API endpoint and authentication
 BASE_URL = "https://api.kpler.marinetraffic.com/v2/vessels/graphql"
-API_KEY = ""  # <-- Replace with your actual API key
+API_KEY = "RTZCQWF2ZHJpWWVheXJZTmZIenFNRXFzZTQzdDNaUEQ6MU1vZ0dqWUQtZHFMMXNTMnNER21CZzNzSjcyUUdzQ0hfSHBFWlFRTk9pT2NwVWpzeF9TclZ0QzNvU0NwMlJpQg=="  # <-- Replace with your actual API key
 
 # - 2. Fetch vessel data with pagination
 def fetch_vessels(after_cursor=None):
@@ -14,16 +14,16 @@ def fetch_vessels(after_cursor=None):
             first: 1000  # Number of records per page, max value is 1000
             where: {{
                 filters: [
-                    {{
-                        field: "identifier.imo"
-                        op: IN
-                        values: ["9431214", "9443401", "9862475", "9709025", "9762261", "9830898", "9830903", "9645736", "9750713", "9271248", "9853137", "9877145", "9256614", "9831684"]
-                    }}
                    # {{
-                   #     field: "identifier.mmsi"
-                   #     op: EQ
-                   #    values: ["9172571"]
+                   #    field: "identifier.imo"
+                   #     op: IN
+                   #     values: ["9481075"]
                    # }}
+                    {{
+                        field: "identifier.mmsi"
+                        op: EQ
+                        values: ["261010170", "636020532", "209313000", "230643000", "305201000", "314545000", "636018385", "275523000", "563226500", "210586000", "261011140", "636018491", "305287000", "244874000", "255806370", "209956000", "255806436", "305773000", "305576000", "314261000", "211286440", "305313000", "246924000", "477759600", "209525000"]
+                    }}
                    # {{
                    #     field: "management.beneficialOwner.current.name"
                    #     op: LIKE
@@ -56,12 +56,12 @@ def fetch_vessels(after_cursor=None):
                 }}
 
                 ### Associated Companies - (Un)comment fields below to include/exclude them from the response
-                # associatedCompanies {{
-                #     shipBuilder {{ current {{ name country address website startDate }} }}
-                #     engineBuilder {{ current {{ name country address website startDate }} }}
-                #     classificationSociety {{ current {{ name country address website startDate }} }}
-                #     piClub {{ current {{ name country address website startDate }} }}
-                # }}
+                 associatedCompanies {{
+                     shipBuilder {{ current {{ name country address website startDate }} }}
+                     engineBuilder {{ current {{ name country address website startDate }} }}
+                     classificationSociety {{ current {{ name country address website startDate }} }}
+                     piClub {{ current {{ name country address website startDate }} }}
+                 }}
 
                 ### Vessel Particulars - (Un)comment fields below to include/exclude them from the response
                 particulars {{
@@ -75,20 +75,20 @@ def fetch_vessels(after_cursor=None):
                         portOfRegistry
                         keelLaidDate
                     }}
-                    # hull {{
-                    #     yearOfBuild
-                    #     yardNumber
-                    #     hullMaterial
-                    #     hullType
-                    #     decks
-                    # }}
-                    # aisTransceiver {{
-                    #     lengthFore
-                    #     lengthAft
-                    #     widthLeft
-                    #     widthRight
-                    #     aisTransceiverClass
-                    # }}
+                     hull {{
+                         yearOfBuild
+                         yardNumber
+                         hullMaterial
+                         hullType
+                         decks
+                     }}
+                     aisTransceiver {{
+                         lengthFore
+                         lengthAft
+                         widthLeft
+                         widthRight
+                         aisTransceiverClass
+                     }}
                     dimension {{
                         lengthOverall
                         lengthBetweenPerpendiculars
@@ -105,31 +105,31 @@ def fetch_vessels(after_cursor=None):
                         loadedDisplacementTonnage
                         lightDisplacementTonnage
                     }}
-                    # capacity {{
-                    #     liquidCapacity
-                    #     gasCapacity
-                    #     baleCapacity
-                    #     grainCapacity
-                    #     teuCapacity
-                    #     ceuCapacity
-                    #     passengerCapacity
-                    #     ballastCapacity
-                    # }}
-                    # engine {{
-                    #     enginePower
-                    #     engineUnits
-                    #     engineCylinderUnits
-                    #     engineBore
-                    #     engineStroke
-                    #     engineRpm
-                    #     engineType
-                    #     speedService
-                    #     propeller
-                    # }}
-                    # fuel {{
-                    #     mainEngineFuelType
-                    #     fuelCapacity
-                    # }}
+                     capacity {{
+                         liquidCapacity
+                         gasCapacity
+                         baleCapacity
+                         grainCapacity
+                         teuCapacity
+                         ceuCapacity
+                         passengerCapacity
+                         ballastCapacity
+                     }}
+                     engine {{
+                         enginePower
+                         engineUnits
+                         engineCylinderUnits
+                         engineBore
+                         engineStroke
+                         engineRpm
+                         engineType
+                         speedService
+                         propeller
+                     }}
+                     fuel {{
+                         mainEngineFuelType
+                         fuelCapacity
+                     }}
                 }}
             }}
 
